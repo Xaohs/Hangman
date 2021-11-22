@@ -1,0 +1,76 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-color: #1e0c27;
+  font: roboto;
+}
+.container {
+  width: 1200px;
+  padding: 40px;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #242e42;
+}
+span,
+h1,
+h2,
+h3,
+label {
+  color: white;
+}
+h1,
+h2,
+h3 {
+  color: #ff4dff;
+  font-size: 50px;
+}
+.galgje {
+  margin-left: 300px;
+}
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  margin: 4px 2px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #b3b336;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #4f4f17;
+}
+button:hover {
+  background-color: #767623;
+}
+button:active {
+  background-color: #767623;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.letters {
+  color: #ff4dff;
+}
+.dashes {
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 50px;
+}
+.guessed:nth-of-type(1) {
+  display: flex;
+}
+.guessed {
+  font-size: 35px;
+}
+.letters {
+  font-size: 30px;
+}
+input {
+  border-radius: 8px;
+  font-size: 25px;
+}
+#typeaWord {
+  font-size: 25px;
+}
