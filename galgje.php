@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Galgje</title>
+    <title>Hangman</title>
     <link rel="shortcut icon" href="C:\xampp\htdocs\School\favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@ if (!empty($_POST)) {
 }
 if (!isset($_SESSION['status'])) {
     ?>
-    <h1>Galgje</h1>
+    <h1>Hangman</h1>
     <form method="POST" action="galgje.php">
         <label id="typeaWord" for="word">Type a word to play with</label> <br>
         <input name="word" type="text">
